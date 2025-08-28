@@ -1,0 +1,91 @@
+name: frost
+type: mech
+speed: 0.50
+flying: false
+hitSize: 30
+itemCapacity: 120
+outlineColor: 8798b9 
+targetAir: false
+targetGround: true
+mechLegColor: 8798b9 
+mechFrontSway: 1.5
+mechStepParticles: true
+stepShake: 1
+drownTimeMultiplier: 8
+rotateSpeed: 1
+health: 410
+armor: 7
+range: 176
+
+weapons: 
+[
+    {
+    name: frost-weapon
+        x: 15.75
+        y: 0
+        shootY: 8.5
+        shootX: 0
+        mirror: true
+        reload: 60
+        recoil: 1
+        shake: 2
+        shootSound: shotgun
+
+        bullet: {
+            type: ShrapnelBulletType
+            length: 90
+            width: 20
+            damage: 15
+            pierce: true
+            pierceBuilding: true
+            status: shocked
+            statusDuration: 120
+            serrations: 10
+            serrationLenScl: 7
+            serrationSpaceOffset: 60
+            serrationWidth: 4
+            fromColor: 85cce9 
+            toColor: 85cce9 
+            shootEffect: sparkShoot
+            hitColor: 85cce9 
+            }
+            }
+            {
+            
+name: frost-weapon-2
+x: 0
+y: 0
+mirror: false
+top: true
+rotate: true
+rotateSpeed: 1.2
+reload: 150
+recoil: 1
+targetAir: false
+shootSound: missile
+
+shoot: {
+type: ShootPattern
+shots: 6
+shotDelay: 3
+}
+
+bullet: {
+type: MissileBulletType
+damage: 25
+homingPower: 0.25
+width: 6
+height: 6
+speed: 4
+lifetime: 44
+homingPower: 0.1
+frontColor: 1ca3ec
+backColor: 74ccf4
+trailColor: 74ccf4
+despawnEffect: steam
+hitEffect: steam
+weaveScale: 1
+weaveMag: 1.5
+}
+}
+]

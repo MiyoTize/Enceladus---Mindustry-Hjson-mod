@@ -1,0 +1,111 @@
+type: ItemTurret 
+name: Rime
+description: Rime, fires bullets at high velocity that break up into smaller bullets.
+squareSprite: false
+size: 2 
+research: {
+parent: core
+  planet: enceladus
+  requirements: [
+  ice/40
+  lithium/10
+  ]
+}
+alwaysUnlocked: true 
+category: turret 
+health: 120 
+shootSound: artillery 
+requirements: [ 
+ice/30
+lithium/20 
+] 
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 42413e 
+targetAir: false 
+targetGround: true 
+reload: 60 
+range: 80 
+rotateSpeed: 5.0
+inaccuracy: 20
+shootCone: 20
+shoot: {
+shots: 3
+shotDelay: 0.1
+}
+ammoTypes: {
+  ice: {
+    type: ArtilleryBulletType
+	buildingDamageMultiplier: 0.1
+        ammoMultiplier: 1
+    width: 5
+    height: 5
+    speed: 4
+    lifetime: 1
+    damage: 5
+    backColor: FFFFFF
+    frontColor: c3e4eb
+    inaccuracy: 20
+    spread: 20
+    fragBullets: 4
+    fragBullet: {
+      type: ArtilleryBulletType
+      backColor: FFFFFF
+      frontColor: c3e4eb
+      width: 1
+      height: 1
+      speed: 2
+      lifetime: 5
+      splashDamage: 7
+      splashDamageRadius: 9
+      keepVelocity: false
+      hitEffect: shockwave
+    }
+  }
+  lithium: {
+    type: ArtilleryBulletType
+	buildingDamageMultiplier: 0.1
+    width: 5
+    height: 5
+    speed: 4
+    lifetime: 1
+    damage: 8
+    backColor: ab8d5e
+    frontColor: 423013
+    inaccuracy: 20
+    spread: 20
+    fragBullets: 4
+    fragBullet: {
+      type: ArtilleryBulletType
+      backColor: ab8d5e
+      frontColor: 423013
+      width: 1
+      height: 1
+      speed: 2
+      lifetime: 5
+      splashDamage: 11
+      splashDamageRadius: 11
+      keepVelocity: false
+    }
+  }
+}
+shootEffect: shootBig
+smokeEffect: shootSmokeSquareSparse
+drawer: {
+	type: DrawTurret
+	parts: [
+		{
+		type: RegionPart
+		suffix: -barrel
+		mirror: false
+		under: true
+		progress: recoil
+		moveY: -1.8
+		recoilIndex: 1
+		}
+	]
+}

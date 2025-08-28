@@ -1,0 +1,9 @@
+type: SteamVent
+localizedName: White Ice Geyzer
+blendGroup: alt-white-ice-floor
+parent: alt-white-ice-floor
+effect: ventSteam
+effectColor: 64889e
+attributes: {
+   steam: 0.11112
+}

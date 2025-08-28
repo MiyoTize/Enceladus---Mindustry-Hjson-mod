@@ -1,0 +1,15 @@
+type: LiquidBridge
+name: Ice Conduit Junction
+health: 30
+liquidCapacity: 2
+liquidPressure: 1.5
+category: liquid
+hasPower: false
+range: 3
+requirements: [
+  ice/4
+]
+research: ice-conduit-junction
+researchCost: [
+    ice/20
+  ]

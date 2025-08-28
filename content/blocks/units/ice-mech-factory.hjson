@@ -1,0 +1,34 @@
+name: Ice Mech Factory
+description: its factory.
+type: UnitFactory
+health: 140
+size: 2
+plans: [
+ {
+	 unit: coolness
+	 requirements: [
+		 silicon/15
+		 ice/20
+  ]
+   time: 1200
+  }
+]
+consumes: {
+	power: 0.6
+	liquids: [
+        water/0.0833333333
+    ]
+}
+configurable: false
+requirements: [
+ 	ice/40
+  lithium/25
+  silicon/20
+]
+category: units
+research: core
+researchCost: [
+  ice/100
+  lithium/75
+  silicon/80
+]

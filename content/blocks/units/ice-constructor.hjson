@@ -1,0 +1,21 @@
+name: Ice Constructor
+description: Collects various blocks.
+type: Constructor
+health: 150
+size: 2
+buildSpeed: 1
+itemCapacity: 8
+filter: [
+  ice-wall
+  titan-wall
+]
+requirements: [
+  ice/50
+  silicon/30
+  titanium/20
+]
+consumes: {
+  power: 0.75
+}
+researchCostMultiplayer: 0.5
+category: units

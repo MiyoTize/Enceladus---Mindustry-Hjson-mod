@@ -1,0 +1,4 @@
+type: Floor
+name: Snowy White Ice Floor
+variants: 5
+itemDrop: ice

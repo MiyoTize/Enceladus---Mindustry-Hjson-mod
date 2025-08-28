@@ -1,0 +1,14 @@
+type: Wall
+name: Large Ice Wall
+description: Protects structures from enemy projectiles. Very brittle.
+size: 2
+health: 210
+category: defense
+research: ice-wall
+armor: 0
+researchCost: [
+  ice/64
+]
+requirements: [
+  ice/32
+]

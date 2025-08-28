@@ -1,0 +1,16 @@
+name: Ice Solar Panel
+description: He eats the sun, and in return gives a little energy. It is effective in large quantities.
+type: SolarGenerator
+powerProduction: 0.2
+health: 100
+size: 2
+requirements: [
+    ice/20
+    silicon/15
+]
+category: power
+research: energy-node
+researchCost: [
+  ice/40
+  silicon/30
+]

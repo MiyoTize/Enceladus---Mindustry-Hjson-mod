@@ -1,0 +1,9 @@
+type: Wall
+name: Titanium Wall
+category: defense
+size: 1
+health: 105
+requirements: [
+ titanium/8
+]
+research: ice-wall-large

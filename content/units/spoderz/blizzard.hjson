@@ -1,0 +1,46 @@
+type: legs
+name: Blizzard
+health: 300
+armor: 3
+speed: 0.30
+drag: 0.08
+rotateSpeed: 1.25
+outlineColor: 8798b9
+hitSize: 20
+targetAir: false
+itemCapacity: 0
+legCount: 4
+legLength: 27
+lockLegBase: true
+legContinuousMove: true
+legExtension: -6
+legBaseOffset: 9
+legMaxLength: 1.5
+legMinLength: 0.8
+legLengthScl: 1
+range: 160
+legAngleOffset: 100
+
+weapons: [
+	{
+	name: blizzard-gun
+	x: 0
+	y: -6.5
+	reload: 180
+	mirror: false
+	top: true
+	rotate: true
+	rotateSpeed: 1.23
+	recoil: 2
+	shootSound: missileLaunch
+	shootSoundVol: 0.17
+	
+	  bullet: {
+	  instantDisappear: true
+	  shootEffect: shootBig
+	  smokeEffect: "shootPyraFlame" //shootSmokeMissile
+	  damage: 0
+	  spawnUnit: blizzard-missile
+	  }
+	}
+]

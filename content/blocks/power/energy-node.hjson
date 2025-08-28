@@ -1,0 +1,21 @@
+type: BeamNode
+name: Ice Energy Node
+description: Transmits power to other blocks orthogonally.
+hasPower: true
+category: power
+size: 1
+health: 35
+range: 8
+requirements: [
+    ice/8
+    lithium/4
+    silicon/4
+]
+research: core
+consumesPower: true
+consumes: {
+  powerBuffered: 20
+  power: 0.0333
+}
+laserColor1: b8f9ff
+laserColor2: 588db1

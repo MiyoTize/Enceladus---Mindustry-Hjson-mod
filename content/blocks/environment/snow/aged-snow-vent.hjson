@@ -1,0 +1,9 @@
+type: SteamVent
+localizedName: Aged Snow Geizer
+blendGroup: aged-snow-floor
+parent: aged-snow-floor
+effect: ventSteam
+effectColor: b0b9bf
+attributes: {
+   steam: 0.11112
+}

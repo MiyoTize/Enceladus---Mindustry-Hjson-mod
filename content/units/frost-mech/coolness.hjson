@@ -1,0 +1,58 @@
+name: coolness
+type: mech
+speed: 0.75
+flying: false
+hitSize: 15
+itemCapacity: 0
+outlineColor: 8798b9
+targetAir: false
+targetGround: true
+mechLegColor: 8798b9
+mechFrontSway: 1.5
+mechStepParticles: true
+stepShake: 0.8
+drownTimeMultiplier: 8
+rotateSpeed: 2
+health: 60
+armor: 0
+range: 48
+
+weapons: 
+[
+{
+    name: coolness-weapon
+    x: -6.25
+    y: 0
+    mirror: true
+    reload: 60
+    recoil: 1
+    shootSound: spark
+    targetAir: false
+
+    bullet: {
+        type: ArtilleryBulletType
+        damage: 5
+        splashDamage: 15
+        splashDamageRadius: 5
+        lifetime: 35 
+        speed: 2
+        range: 120
+        width: 7
+        height: 9
+        hitEffect: hitLancer
+        despawnEffect: hitLancer
+        status: shocked
+        statusDuration: 30
+        lightColor: 85cce9
+        keepVelocity: true
+        frontColor: 85cce9
+        backColor: 85cce9
+        trailColor: 85cce9
+        trailLength: 27
+        trailWidth: 2.5
+        collides: true
+        collidesTiles: true
+    }
+}
+]
+research: ice-mech-factory

@@ -1,0 +1,15 @@
+name: Ice Liquid Router
+description: Accepts liquids from one direction and outputs them to up to 3.
+type: LiquidRouter
+health: 30
+liquidCapacity: 4
+solid: false
+placeableLiquid: true
+category: liquid
+requirements: [
+  ice/3
+]
+research: ice-conduit-junction
+researchCost: [
+    ice/20
+  ]

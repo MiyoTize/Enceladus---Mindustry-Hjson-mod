@@ -1,0 +1,28 @@
+type: payload
+name: Snowflake
+description: Snowflake. yeah. 
+lowAltitude: true
+coreUnitDock: true
+flying: true
+controller: BuilderAI
+buildSpeed: 1
+buildRange: 112
+health: 125
+armor: 1
+hitSize: 11
+speed: 5.5
+itemCapacity: 20
+rotateSpeed: 3
+outlineColor: 8798B9
+accel: 0.02
+drag: 0.02
+mineTier: 1
+mineSpeed: 3
+mineFloor: true
+faceTarget: true
+isEnemy: false
+payloadCapacity: 170
+vulnerableWithPayloads: true 
+engineOffset: 5.25
+engineSize: 2.5
+engineColor: "8cc8ff" //another blue 9ee2ff

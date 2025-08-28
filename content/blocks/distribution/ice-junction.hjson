@@ -1,0 +1,15 @@
+type: Junction
+name: Ice Juction
+description: Acts as a bridge for two crossing ice conveyor belts.
+health: 20
+size: 1
+speed: 13
+requirements: [
+  ice/2
+]
+squareSprite: false
+category: distribution
+research: ice-router
+researchCost: [
+ ice/12
+ ]

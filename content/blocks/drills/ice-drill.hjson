@@ -1,0 +1,27 @@
+name: Ice Drill
+description: Ice Drill, drills ice from the floor unlike the Ice Cliff Crusher
+type: Drill
+health: 305
+size: 3
+tier: 2
+drillTime: 220
+itemCapacity: 20
+liquidCapacity: 20
+consumes: {
+  power: 1
+  liquids: [
+    methane/0.166666666666
+  ]
+}
+requirements: [
+  ice/70
+  lithium/40
+  silicon/30
+]
+researchCostMultiplier: 0.5
+research: ice-crusher
+category: production
+squareSprite: false
+
+ambientSound: ice-drill
+ambientSoundVolume: 0.5

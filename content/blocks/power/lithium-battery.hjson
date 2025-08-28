@@ -1,0 +1,36 @@
+type: Battery
+name: Lithium Battery
+description: Stores some power.
+health: 300
+size: 3
+category: power
+consumes: {
+  powerBuffered: 2400
+}
+requirements: [
+  ice/75
+  lithium/40
+  silicon/40
+]
+research: energy-node
+squareSprite: false
+researchCostMultiplier: 0.5
+researchCost: [
+  ice/120
+  silicon/40
+  lithium/80
+]
+emptyLightColor: "588db1"
+fullLightColor: "b8f9ff"
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawDefault
+		},
+		{
+		type: DrawGlowRegion
+		color: "588db1"
+		}
+	]
+}

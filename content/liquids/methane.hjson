@@ -1,0 +1,12 @@
+name: Methane
+description: It is a colorless, tasteless, odorless gas.
+heatCapacity: 0
+explosiveness: 0.7
+temperature: -1.64
+coolant: false
+color: 767a84
+flammability: 0
+barColor: 767a84
+incinerable: false
+research: lithium
+alwaysUnlocked: false

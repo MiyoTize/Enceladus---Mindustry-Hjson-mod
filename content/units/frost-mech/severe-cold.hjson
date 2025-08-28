@@ -1,0 +1,145 @@
+name: severe-cold
+type: mech
+speed: 0.5
+flying: false
+hitSize: 17
+itemCapacity: 0
+outlineColor: 8798b9
+targetAir: false
+targetGround: true
+mechLegColor: 8798b9 
+mechFrontSway: 0.8
+mechStepParticles: true
+stepShake: 1
+drownTimeMultiplier: 8
+rotateSpeed: 2
+health: 180
+armor: 0
+range: 96
+
+weapons: [
+    {
+    name: severe-cold-weapon
+    reload: 66.666666
+    recoil: 2
+    shootY: 7
+    shootX: 0
+x: 10.25
+y: 0
+mirror: true
+
+bullet: {
+type: BasicBulletType
+homingPower: 0.1
+damage: 32
+lifetime: 80
+width: 13
+height: 13
+speed: 2
+drag: 0.02
+backColor: 85cce9 
+frontColor: 85cce9
+trailColor: 85cce9 
+trailWidth: 3.25
+trailLength: 30
+homingPower: 0.2
+weaveMag: 8
+weaveScale: 4
+intervalBullets: 1
+intervalAngle: 0
+intervalRandomSpread: 25
+intervalSpread: 8
+
+shootEffect: {
+type: ParticleEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+particles: 5
+cone: 4
+length: 12
+baseLength: 5
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 2
+sizeTo: 0 
+offset: 1
+}
+
+despawnEffect: {
+type: WaveEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+sizeFrom: 0 
+sizeTo: 6
+lightScl: 4 
+lightOpacity: 1
+rotation: 0 
+strokeFrom: 4
+strokeTo: 0 
+}
+hitEffect: {
+type: WaveEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+sizeFrom: 0 
+sizeTo: 6
+lightScl: 4 
+lightOpacity: 1
+rotation: 0 
+strokeFrom: 4
+strokeTo: 0
+} 
+
+intervalBullet: {
+
+                type: BasicBulletType
+                homingPower: 0.5
+                backColor: 85cce9
+                frontColor: 85cce9
+                trailColor: 85cce9
+                trailLength: 8
+                trailWidth: 2.5
+                trailInterval: 46
+                damage: 4
+                width: 10
+                height: 10
+                despawnEffect: none
+                hitEffect: none
+                speed: 2
+                drag: 0.04
+                lifetime: 60
+                pierce: true
+                pierceCap: 2
+                pierceBuilding: true 
+                weaveMag: 8
+                weaveScale: 4
+                
+despawnEffect: {
+type: WaveEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+sizeFrom: 0 
+sizeTo: 6
+lightScl: 4 
+lightOpacity: 1
+rotation: 0 
+strokeFrom: 4
+strokeTo: 0 
+}
+hitEffect: {
+type: WaveEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+sizeFrom: 0 
+sizeTo: 6
+lightScl: 4 
+lightOpacity: 1
+rotation: 0 
+strokeFrom: 4
+strokeTo: 0
+}
+}
+}
+}
+]

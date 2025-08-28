@@ -1,0 +1,13 @@
+{
+ "name": "enceladus",
+ "displayName": "Enceladus",
+ "author": "MiyoTizen and his Team.
+  Миё и его команда.",
+ "description": "Добавляет новый ледяной спутник - Энцелад, со своими технологиями.
+ Adds new ice moon - Enceladus, with his own technologies.",
+ "version": "demo 0.5.4",
+
+ "minGameVersion": "146",
+ "dependencies": []
+ "hidden": false
+}

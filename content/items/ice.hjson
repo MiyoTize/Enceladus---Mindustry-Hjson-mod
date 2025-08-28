@@ -1,0 +1,12 @@
+type: material
+name: Ice
+description: icyyyyy
+color: c2bffb
+explosiveness: 0f
+flammability: 0f
+radioactivity: 0f
+hardness: 1
+cost: 0.85f
+alwaysUnlocked: false
+research: core
+hiddenOnPlanets: [erekir, serpulo]

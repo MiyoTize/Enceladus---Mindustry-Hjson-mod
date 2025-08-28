@@ -1,0 +1,14 @@
+type: PayloadConveyor
+name: Ice Payload Conveyor
+description: Transports units and not units.
+size: 2
+health: 120
+category: units
+research: ice-spider-factory
+requirements: [
+  ice/25
+  titanium/20
+]
+canOverdrive: false
+payloadLimit: 2
+researchCostMultiplier: 0.5

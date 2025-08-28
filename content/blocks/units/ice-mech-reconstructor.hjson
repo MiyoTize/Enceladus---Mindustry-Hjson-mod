@@ -1,0 +1,25 @@
+"type": "Reconstructor"
+"name": "Ice mech reconstructor"
+"health": 500
+"size": 3
+"upgrades": [
+    ["coolness", "severe-cold"]
+]
+"consumes": {
+    "power": 1.333333333333334
+    "items": [
+        ice/55
+        silicon/40
+        lithium/25
+    ]
+    liquids: [
+        methane/10
+    ]
+}
+"requiments": [
+    ice/1
+    lithium/1
+    silicon/1
+    ]
+    "category": "units"
+    "research": "core"

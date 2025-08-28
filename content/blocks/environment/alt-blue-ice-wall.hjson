@@ -1,0 +1,7 @@
+type: StaticWall
+name: Blue Ice Wall 2
+variants: 3
+itemDrop: ice
+attributes: {
+    enceladusice: 1
+}

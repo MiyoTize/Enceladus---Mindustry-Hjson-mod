@@ -1,0 +1,51 @@
+type: GenericCrafter
+name: Lithium Foundry
+description: Produces lithium from ice and water.
+health: 140
+size: 2
+category: crafting
+hasItems: true
+hasLiquids: true
+itemCapacity: 4
+liquidCapacity: 10
+craftTime: 180
+craftEffect: drillSteam
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawRegion
+		suffix: -bottom
+		},
+		{
+		type: DrawLiquidTile
+		drawLiquid: water
+		alpha: 0.5
+		padding: 1.5
+		},
+		{
+		type: DrawDefault
+		}
+	]
+} 
+requirements: [
+    ice/40
+]
+consumes: {
+    items: [
+        ice/2
+    ]
+    liquids: [
+        water/0.0833333333
+    ]
+}
+outputItems: [
+    lithium/3
+]
+research: condenser
+researchCost: [
+    ice/90
+]
+ambientSound: glow
+ambientSoundVolume: 0.7
+squareSprite: false

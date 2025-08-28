@@ -1,0 +1,171 @@
+generator: {
+  octaves: 7
+  persistence: 2.8
+  scale: 20
+  mag: 0.6
+  thresh: 1
+  min: 100
+  max: 100
+  radMin: 265
+  radMax: 550
+}
+localizedName: Enceladus
+description: A cold icy moon of the planet Saturn. Poor conditions for survival. The main resource is probably ice.
+alwaysUnlocked: true
+sectorSize: 2
+startSector: 15
+orbitSpacing: 1
+orbitRadius: 113
+radius: 0.7
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.23
+accessible: true
+updateLighting: false
+sectorSeed: 1053
+bloom: false
+visible: true
+atmosphereColor: 1a6d64
+iconColor: e0f7fa
+hasAtmosphere: true
+defaultCore: core
+parent: sun
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: true
+mesh: [
+ {
+    // ice
+    type: NoiseMesh
+    planet: enceladus
+    divisions: 5
+    seed: 41
+    radius: 0.72
+    color1: 9297dc
+    color2: b2b8e6
+    octaves: 5.5
+    persistence: 1.1
+    scale: 0.45
+    mag: 0.7
+  }
+  {
+    // snow
+    type: NoiseMesh
+    planet: enceladus
+    divisions: 5
+    radius: 0.72
+    seed: 45
+    color1: aeb4c4
+    color2: d6dbe7
+    octaves: 5.5
+    persistence: 1.1
+    scale: 0.55
+    mag: 0.7
+  }
+    {
+    // silicon
+    type: NoiseMesh
+    planet: enceladus
+    divisions: 5
+    radius: 0.72
+    seed: 153
+    color1: 3a3a50
+    color2: 767a84
+    octaves: 5.5
+    persistence: 1.1
+    scale: 0.45
+    mag: 0.7
+  }
+  {
+    // blue
+    type: NoiseMesh
+    planet: enceladus
+    divisions: 5
+    seed: 200
+    radius: 0.72
+    color1: a0ace8
+    color2: c4d2ff
+    octaves: 5.6
+    persistence: 1
+    scale: 0.45
+    mag: 0.7
+  }
+  {
+    // gray
+    type: NoiseMesh
+    planet: enceladus
+    divisions: 5
+    seed: 228
+    radius: 0.716
+    color1: 767a84
+    color2: 8e9097
+    octaves: 6
+    persistence: 1
+  }
+]
+cloudMesh: [
+  {
+   type: HexSkyMesh
+   planet: enceladus
+   speed: 1.8
+   radius: 0.23
+   divisions: 6
+   color: bdd3d8e0
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.3
+  }
+    {
+   type: HexSkyMesh
+   planet: enceladus
+   speed: 1.3
+   radius: 0.23
+   divisions: 6
+   color: bdd3d8bd
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.3
+  }
+    {
+   type: HexSkyMesh
+   planet: enceladus
+   speed: 0.9
+   radius: 0.21
+   divisions: 6
+   color: bdd3d87a
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.2
+  }
+]
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "thorium"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "sand"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]

@@ -1,0 +1,11 @@
+name: Sour Cream
+description: what
+heatCapacity: 5
+explosiveness: 1
+temperature: -99
+coolant: false
+color: bdbdbd
+flammability: 9
+barColor: bdbdbd
+incinerable: false
+alwaysUnlocked: false

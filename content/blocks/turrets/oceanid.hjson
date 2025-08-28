@@ -1,0 +1,53 @@
+type: LiquidTurret
+name: Oceanid
+description: Uses methane or water for shooting. Has a medium radius and damage. In large quantities, it is very strong.
+squareSprite: false
+size: 3 
+health: 360
+outlineColor: 6a7298 
+category: turret
+requirements: [
+  ice/110
+  lithium/70
+  silicon/50
+]
+consumes: {
+  power: 0.25
+}
+research: rime
+researchCost: [
+  ice/240
+  lithium/160
+  silicon/120
+]
+recoil: 2
+reload: 4
+inaccuracy: 5
+hasLiquids: true
+liquidCapacity: 10
+range: 176
+ammoTypes: {
+  water: {
+    type: LiquidBulletType
+	buildingDamageMultiplier: 0.6
+    liquid: water
+    speed: 1.8
+    lifetime: 120
+    knockback: 1.3
+    damage: 0.4
+    despawnEffect: none
+    hitEffect: none
+  }
+  methane: {
+    type: LiquidBulletType
+	buildingDamageMultiplier: 0.6
+    liquid: methane
+    speed: 1.8
+    lifetime: 120
+    knockback: 0.8
+    damage: 1
+    despawnEffect: none
+    hitEffect: none
+  }
+}
+rotateSpeed: 12.5

@@ -1,0 +1,4 @@
+type: Floor
+name: Blue Ice Floor
+variants: 5
+itemDrop: ice

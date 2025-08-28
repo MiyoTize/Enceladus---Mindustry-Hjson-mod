@@ -1,0 +1,50 @@
+type: GenericCrafter
+name: Burner
+description: Melts ice, turning it into water. Requires power
+health: 120
+size: 2
+category: crafting
+hasItems: true
+hasLiquids: true
+itemCapacity: 40
+liquidCapacity: 40
+craftTime: 75
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawRegion
+		suffix: -bottom
+		},
+		{
+		type: DrawLiquidTile
+		drawLiquid: water
+		alpha: 0.5
+		padding: 1.5
+		},
+		{
+		type: DrawDefault
+		}
+	]
+} 
+requirements: [
+    ice/30
+    lithium/10
+]
+consumes: {
+    power: 0.3
+    items: [
+        ice/2
+    ]
+}
+outputLiquids: [
+    water/0.33333333333
+]
+research: lithium-factory
+researchCost: [
+    ice/90
+    lithium/35
+]
+ambientSound: glow
+ambientSoundVolume: 0.7
+squareSprite: false

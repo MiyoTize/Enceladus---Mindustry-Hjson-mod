@@ -1,0 +1,12 @@
+type: LiquidJunction
+name: Ice Conduit Junction
+description: Acts as a bridge between two crossing ice conduits.
+health: 30
+category: liquid
+research: ice-conduit
+requirements: [
+  ice/2
+]
+researchCost: [
+  ice/24
+]

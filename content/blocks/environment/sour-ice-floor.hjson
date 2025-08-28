@@ -1,0 +1,4 @@
+type: Floor
+name: Sour Ice Floor
+variants: 5
+itemDrop: ice

@@ -1,0 +1,13 @@
+name: Shallow Methane,
+type: Floor
+"variants": 5,
+drownTime: 0
+speedMultiplier: 0.7
+liquidDrop: enceladus-methane
+isLiquid: true
+liquidRegion: shallow-methane
+topRegion: n/a
+bottomRegion: shallow-methane
+cacheLayer: tar
+supportsOverlay: true
+"shallow": true

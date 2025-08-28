@@ -1,0 +1,7 @@
+type: StaticWall
+name: Sour Ice Wall
+variants: 3
+itemDrop: ice
+attributes: {
+    enceladusice: 0.25
+}

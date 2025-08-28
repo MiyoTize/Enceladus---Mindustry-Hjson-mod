@@ -1,0 +1,33 @@
+localizedName: "Ice assembler"
+description: "Builds Tier 3 ice units"
+type: UnitAssembler
+size: 7
+itemCapacity: 250
+liquidCapacity: 200
+areaSize: 6
+dronesCreated: 4
+droneType: "assembly-drone" //assembly-drone
+droneConstructTime: 600
+category: units
+consumes: {
+	power: 2.33333
+	liquid: {
+		liquid: methane
+		amount: 0.33333
+	}
+}
+plans: [
+	{
+	unit: "frost" //Tier 1 module
+	requirements: [
+		enceladus-titan-wall-large/1
+		coolness/2
+	]
+	time: 1260
+	}
+]
+requiments: [
+    ice/90
+    lithium/24
+    silicon/75
+    ]

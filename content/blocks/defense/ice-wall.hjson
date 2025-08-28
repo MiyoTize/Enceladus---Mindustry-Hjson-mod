@@ -1,0 +1,14 @@
+type: Wall
+name: Ice Wall
+description: Protects structures from enemy projectiles. Very brittle.
+size: 1
+health: 50
+category: defense
+research: core
+armor: 0
+researchCost: [
+  ice/16
+]
+requirements: [
+  ice/8 
+]

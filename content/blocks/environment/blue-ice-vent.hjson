@@ -1,0 +1,9 @@
+type: SteamVent
+localizedName: Blue Ice Geizer
+blendGroup: alt-blue-ice-floor
+parent: alt-blue-ice-floor
+effect: ventSteam
+effectColor: 64889e
+attributes: {
+   steam: 0.11112
+}

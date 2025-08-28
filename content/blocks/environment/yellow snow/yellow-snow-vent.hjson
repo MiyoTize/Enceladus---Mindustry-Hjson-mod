@@ -1,0 +1,9 @@
+type: SteamVent
+localizedName: Yellow Geyzer
+blendGroup: yellow-snow-floor
+parent: yellow-snow-floor
+effect: ventSteam
+effectColor: e0f25a
+attributes: {
+   steam: 0.11112
+}

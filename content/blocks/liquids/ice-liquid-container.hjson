@@ -1,0 +1,19 @@
+type: LiquidRouter
+name: Ice Liquid Container
+description: Stores liquids and outputs them to all sides.
+health: 180
+size: 2
+liquidCapacity: 250
+category: liquid
+placeableLiquid: true
+requirements: [
+   ice/30
+   lithium/10
+]
+research: ice-liquid-router
+researchCost: [
+    ice/80
+    lithium/30
+]
+liquidPadding: 1.8
+squareSprite: false

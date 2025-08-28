@@ -1,0 +1,13 @@
+name: Deep Methane,
+type: Floor
+"variants": 1,
+drownTime: 240
+speedMultiplier: 0.4
+liquidDrop: enceladus-methane
+isLiquid: true
+liquidRegion: shallow-methane
+topRegion: n/a
+bottomRegion: shallow-methane
+cacheLayer: tar
+supportsOverlay: true
+"shallow": true

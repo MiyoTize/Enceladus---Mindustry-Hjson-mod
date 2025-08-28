@@ -1,0 +1,51 @@
+name: Ice Regenerator
+description: regenerator.
+type: RegenProjector
+health: 160
+size: 2
+baseColor: 2CDC78FF
+range: 12
+itemCapacity: 5
+healPercent: 0.03432
+consumes: {
+   power: 0.6
+   liquid: {
+      liquid: water
+	  amount: 0.08333333333334
+   }
+   items: {
+    items: [
+      silicon/1
+    ]
+    optional: true
+    booster: true
+  }
+}
+requirements: [
+  ice/40
+  silicon/25
+]
+researchCostMultiplayer: 0.25
+research: energy-node
+category: effect
+squareSprite: false
+
+optionalUseTime: 180
+optionalMultiplier: 1.5
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+		type: DrawRegion
+		suffix: -bottom
+		},
+		{
+		type: DrawLiquidTile
+		drawLiquid: water
+		},
+		{
+		type: DrawDefault
+		}
+	]
+}

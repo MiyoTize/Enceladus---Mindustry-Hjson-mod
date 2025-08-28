@@ -1,0 +1,16 @@
+type: Router
+name: Ice Router
+description: Distributes input items to 3 output directions equally.
+size: 1
+speed: 13
+health: 20
+itemCapacity: 3
+requirements: [
+  ice/4
+]
+category: distribution
+research: ice-conveyor
+researchCost: [
+  ice/12
+]
+details: «I see the end»

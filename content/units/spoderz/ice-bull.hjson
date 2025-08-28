@@ -1,0 +1,24 @@
+type: legs
+name: Ice bull
+health: 450
+armor: 5
+speed: 0.20
+drag: 0.1
+rotateSpeed: 1.05
+outlineColor: 8798b9
+hitSize: 20
+targetAir: false
+itemCapacity: 0
+legCount: 6
+legLength: 40
+lockLegBase: true
+legContinuousMove: true
+legExtension: -8.1
+legBaseOffset: 12.5
+legMaxLength: 1.1
+legMinLength: 0.7
+legLengthScl: 0.8
+range: 160
+legAngleOffset: 100
+
+//weapons: [ ]

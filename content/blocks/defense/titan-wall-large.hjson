@@ -1,0 +1,9 @@
+type: Wall
+name: Large Titanium Wall
+category: defense
+size: 2
+health: 440
+requirements: [
+ titanium/32
+]
+research: titan-wall

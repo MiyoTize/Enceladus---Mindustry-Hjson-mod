@@ -1,0 +1,25 @@
+name: Core: Chills
+type: CoreBlock
+description: The core of the base. Armored. Once destroyed, all contact with the region is lost.
+isFirstTier: true
+health: 450
+squareSprite: false
+size: 3
+armor: 0
+itemCapacity: 400
+unitCapModifier: 4
+researchCostMultiplier: 0.07
+buildCost: 15.0
+unitType: snowflake
+requirements: [
+  ice/320
+]
+category: effect
+alwaysUnlocked: true
+research: {
+    root: true
+    name: Enceladus
+    requiresUnlock: false
+    planet: enceladus
+}
+details: Chilling and relaxing...

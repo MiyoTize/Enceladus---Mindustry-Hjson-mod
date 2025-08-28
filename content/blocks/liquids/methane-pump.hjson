@@ -1,0 +1,28 @@
+type: Pump
+name: Methane pump
+description: "Pumps and transfers methane."
+squareSprite: false
+health: 320
+size: 2
+pumpAmount: 0.02082
+squareSprite: false
+category: liquid
+hasPower: true
+consumes: {
+  power: 1
+  liquids: [
+    water/0.25
+  ]
+}
+requirements: [
+  ice/80
+  lithium/60
+  silicon/100
+]
+liquidCapacity: 40
+research: silicon-press
+researchCost: [
+    ice/270
+    lithium/90
+    silicon/125
+]

@@ -1,0 +1,146 @@
+type: legs
+name: Vortex
+health: 340
+armor: 2
+speed: 0.2666666666666
+drag: 0.07
+rotateSpeed: 1.5
+outlineColor: 8798b9
+hitSize: 18
+targetAir: false
+itemCapacity: 0
+legCount: 4
+legLength: 23
+lockLegBase: true
+legContinuousMove: true
+legExtension: -4
+legBaseOffset: 8
+legMaxLength: 1.2
+legMinLength: 0.8
+legLengthScl: 1
+range: 24
+legAngleOffset: 100
+weapons: [
+  {
+    name: vortex-gun
+    x: -8
+    y: -1
+    reload: 180
+    mirror: true
+    top: true
+    rotate: true
+    rotateSpeed: 1.3
+    recoil: 2
+	shootSound: atrillery
+	shootSoundVolume: 0.17
+    
+    bullet: {
+      type: ArtilleryBulletType
+      damage: 8
+      lifetime: 80
+      width: 15
+      height: 15
+      speed: 2
+      splashDamageRadius: 20
+      splashDamage: 2
+      backColor: 85cce9 
+      frontColor: 85cce9
+      trailColor: 85cce9 
+      trailWidth: 5
+      trailLength: 5
+      fragBullets: 6
+      fragVelocityMin: 0.25
+      fragVelocityMax: 1
+      fragLifeMin: 1.3
+      fragLifeMax: 2.3
+      fragCone: 1
+      
+      shootEffect: {
+type: ParticleEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+particles: 5
+cone: 4
+length: 12
+baseLength: 5
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 4
+sizeTo: 0 
+offset: 1
+}
+
+hitEffect: {
+type: WaveEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+sizeFrom: 0 
+sizeTo: 20
+lightScl: 4 
+lightOpacity: 1
+rotation: 0 
+strokeFrom: 5 
+strokeTo: 0 
+}
+despawnEffect: {
+type: WaveEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+sizeFrom: 0 
+sizeTo: 20
+lightScl: 4 
+lightOpacity: 1
+rotation: 0 
+strokeFrom: 5 
+strokeTo: 0 
+}
+      
+      fragBullet: {
+        type: BasicBulletType
+        damage: 8
+        homingPower: 0.2
+        lifetime: 30
+        width: 3
+        height: 3
+        speed: 2
+      trailLength: 10
+      trailWidth: 1.5
+      trailColor: 85cce9
+      frontColor: 85cce9
+      backColor: 85cce9
+      
+hitEffect: {
+type: ParticleEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+particles: 5
+cone: 5
+length: 10
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 4
+sizeTo: 0 
+offset: 1
+}
+despawnEffect: {
+type: ParticleEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+particles: 5
+cone: 5
+length: 10
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 4
+sizeTo: 0 
+offset: 1
+}
+}
+}
+}
+]

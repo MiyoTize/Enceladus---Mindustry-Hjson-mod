@@ -1,0 +1,106 @@
+name: snowstorm
+type: legs
+hitSize: 12
+speed: 0.4375
+rotateSpeed: 3
+hovering: true
+targetGround: true
+targetAir: false
+faceTarget: true
+hovering: true
+legContinuousMove: true
+lockLegBase: true
+legCount: 4
+legBaseOffset: 3
+legGroupSize: 2
+legMoveSpace: 2
+legForwardScl: 1
+legLength: 6
+legExtension: -1
+legMinLength: 1
+legMaxLength: 2
+legLengthScl: 1.5
+rippleScale: 0.24
+allowLegStep: true
+groundLayer: 75
+shadowElevation: 0.5
+health: 45
+armor: 0
+outlineColor: 8798b9
+range: 96
+
+weapons: [
+{
+display: false
+x: 0 
+y: 5
+reload: 50
+recoil: 1
+shootSound: missile
+ 
+bullet: {
+type: BasicBulletType
+width: 15 
+height: 15 
+speed: 6
+lifetime: 25
+damage: 5
+backColor: 85cce9
+frontColor: 85cce9
+trailColor: 85cce9
+trailLength: 5 
+trailWidth: 5 
+
+shootEffect: {
+type: ParticleEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+particles: 5
+cone: 4
+length: 12
+baseLength: 5
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 4
+sizeTo: 0 
+offset: 1
+}
+
+hitEffect: {
+type: MultiEffect 
+effects: [
+{
+type: WaveEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+sizeFrom: 0 
+sizeTo: 9
+lightScl: 4 
+lightOpacity: 1
+rotation: 0 
+strokeFrom: 5 
+strokeTo: 0 
+sides: 3
+}
+{
+type: ParticleEffect 
+colorFrom: 85cce9
+colorTo: 85cce9
+particles: 5
+cone: 360
+length: 10
+baseLength: 1
+lightScl: 3
+lightOpacity: 2
+spin: 0
+sizeFrom: 4
+sizeTo: 0 
+offset: 1
+}
+]
+}
+}
+}
+]
+research: ice-spider-factory

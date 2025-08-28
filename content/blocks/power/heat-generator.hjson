@@ -1,0 +1,58 @@
+name: Lithium-water Generator
+description: Mixes lithium with water to produce large amounts of electricity. Explodes very violently when there is not enough water.
+type: ImpactReactor
+powerProduction: 7.333333333334
+health: 340
+size: 3
+itemCapacity: 3
+liquidCapacity: 25
+explosionRadius: 25
+warmupSpeed: 0.006
+explosionDamage: 400
+requirements: [
+    ice/70
+    silicon/30
+    titanium/45
+]
+consumes: {
+    power: 0.6
+    items: [
+        lithium/1
+    ]
+    liquids: [
+        water/0.166666666667
+    ]
+}
+category: power
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+                 {
+        "type": "DrawRegion"
+        suffix: -bottom
+        }
+                        {
+                        "type": "DrawLiquidTile",
+                        "drawLiquid": "water",
+                        "suffix": "-liquid"
+                        },
+        {
+          type: DrawRegion
+          suffix: -rotator
+          rotateSpeed: 10
+        },
+                {
+                      "type": "DrawRegion"
+                suffix: -top
+                }
+          {
+      "type": "DrawDefault"
+        }
+        ]
+        }
+research: methane
+researchCost: [
+  ice/210
+  silicon/90
+  titanium/135
+]
