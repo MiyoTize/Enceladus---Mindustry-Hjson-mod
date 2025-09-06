@@ -1,0 +1,10 @@
+type: SteamVent
+localizedName: Titanium Geyzer
+blendGroup: titanium-floor
+parent: titanium-floor
+effect: ventSteam
+effectColor: 4f77c2
+attributes: {
+   steam: 0.11112
+   titaniumvent: 1
+}
