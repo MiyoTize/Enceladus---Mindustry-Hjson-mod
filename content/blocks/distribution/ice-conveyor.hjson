@@ -4,7 +4,7 @@ description: Standard conveyor. Moves objects slowly but surely.
 category: distribution
 armored: true
 alwaysUnlocked: false
-research: core
+research: core-chills
 researchCost: [
   ice/6
 ]
