@@ -4,7 +4,7 @@ description: Protects structures from enemy projectiles. Very brittle.
 size: 1
 health: 50
 category: defense
-research: core
+research: core-chills
 armor: 0
 researchCost: [
   ice/16
