@@ -1,0 +1,68 @@
+type: GenericCrafter
+name: "Silicon Synthesizer"
+description: "Making Silicon from ice and lithium."
+squareSprite: true
+health: 280
+size: 3
+category: crafting
+requirements: [
+	ice/50
+	lithium/30
+]
+consumes: {
+	items: [
+		ice/3
+	]
+	liquids: [
+		"methane/0.1333333333333333" //8
+	]
+}
+
+hasItems: true
+hasLiquids: false
+itemCapacity: 20
+craftTime: 210
+craftEffect: none
+ambientSound: glow
+ambientSoundVolume: 0.7
+
+outputItems: [
+	synthesized-silicon/5
+]
+research: methane-pump
+researchCost: [
+	ice/140
+	lithium/80
+]
+
+drawer: {
+type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawMultiWeave
+			glowColor: "9493aa"
+		}
+		/*{
+			type: DrawParticles
+			radius: 18
+			particleRad: 8
+			particleLife: 120
+			alpha: 0.1
+			particleSize: 4
+			color: "9493aa"
+			reverse: true
+		}*/
+		{
+			type: DrawLiquidTile
+			drawLiquid: methane
+			alpha: 0.8
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}
