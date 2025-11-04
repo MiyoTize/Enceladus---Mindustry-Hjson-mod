@@ -1,11 +1,11 @@
 localizedName: Landing
 description: 
 ''' 
-  It's landing
+It's landing
 ''' 
 captureWave: 1
 planet: enceladus
 sector: 15
-research: core
+research: core-chills
 difficulty: 1
 alwaysUnlocked: true
