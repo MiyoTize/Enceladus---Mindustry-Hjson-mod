@@ -42,7 +42,7 @@ consumes: {
 outputItems: [
     lithium/3
 ]
-research: condenser
+research: core-chills
 researchCost: [
     ice/90
 ]

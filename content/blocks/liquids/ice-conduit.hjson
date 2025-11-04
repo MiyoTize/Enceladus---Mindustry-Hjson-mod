@@ -2,16 +2,18 @@ type: Conduit
 name: Ice Conduit
 description: Moves liquids forward.
 health: 20
+category: liquid
 requirements: [
-  ice/1
+	ice/1
 ]
+
 leaks: true
 liquidCapacity: 2
 liquidPressure: 1.5
-research: ice-crusher
 botColor: 61648d
-category: liquid
 junctionReplacement: ice-conduit-junction
+
+research: core-chills
 researchCost: [
-    ice/10
-  ]
+	ice/10
+]

@@ -26,7 +26,7 @@ requirements: [
   silicon/20
 ]
 category: units
-research: core
+research: core-chills
 researchCost: [
   ice/100
   lithium/75

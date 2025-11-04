@@ -11,7 +11,7 @@ requirements: [
     lithium/4
     silicon/4
 ]
-research: core
+research: core-shills
 consumesPower: true
 consumes: {
   powerBuffered: 20

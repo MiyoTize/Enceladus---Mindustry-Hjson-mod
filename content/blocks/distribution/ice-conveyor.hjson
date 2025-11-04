@@ -1,17 +1,17 @@
 type: Duct
-name: Ice Conveyor
-description: Standard conveyor. Moves objects slowly but surely.
+name: "Ice Conveyor"
+description: "Standard conveyor. Moves objects slowly but surely."
 category: distribution
 armored: true
 alwaysUnlocked: false
 research: core-chills
 researchCost: [
-  ice/6
+	ice/6
 ]
-speed: 12
+speed: 10
 health: 15
 junctionReplacement: ice-junction
 requirements: [
-  ice/1
+	ice/1
 ]
-itemCapacity: 1
+itemCapacity: 2

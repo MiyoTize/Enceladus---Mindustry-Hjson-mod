@@ -4,12 +4,12 @@ description: Rime, fires bullets at high velocity that break up into smaller bul
 squareSprite: false
 size: 2 
 research: {
-parent: core
-  planet: enceladus
-  requirements: [
-  ice/40
-  lithium/10
-  ]
+	parent: core-shills
+	planet: enceladus
+	requirements: [
+		ice/40
+		lithium/10
+	]
 }
 alwaysUnlocked: true 
 category: turret 

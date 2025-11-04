@@ -1,23 +1,37 @@
-name: Ice Cliff Crusher
 type: WallCrafter
-description: Mines ice from the walls.
-squareSprite: false
 category: production
-research: core
+name: Ice Cliff Crusher
+description: Mines ice from the walls.
 size: 2
-drillTime: 480
 health: 120
-itemCapacity: 4
+squareSprite: false
+requirements: [
+	ice/20
+]
+
+itemCapacity: 8
+output: ice
 attribute: enceladusice
+drillTime: 480
+drillMultipliers: [
+	alt-blue-ice-wall/0.25
+]
+
+consumes: {
+	power: 1.416666666666667
+	liquids: {
+		liquids: [
+			"methane/0.13333" //8
+		]
+		booster: true
+		optional: true
+	}
+}
+
 ambientSound: drill
 ambientSoundVolume: 0.1
-output: ice
+
+research: core-chills
 researchCost: [
-  ice/34
-]
-requirements: [
-    ice/20
-]
-drillMultipliers: [
- alt-blue-ice-wall/0.25
+	ice/34
 ]
