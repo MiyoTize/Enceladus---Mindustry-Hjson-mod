@@ -5,5 +5,5 @@ parent: alt-white-ice-floor
 effect: ventSteam
 effectColor: 64889e
 attributes: {
-   steam: 0.11112
+   methaneevent: 0.11112
 }

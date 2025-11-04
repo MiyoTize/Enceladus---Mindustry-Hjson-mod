@@ -5,5 +5,5 @@ parent: aged-snow-floor
 effect: ventSteam
 effectColor: b0b9bf
 attributes: {
-   steam: 0.11112
+	methaneevent: 0.11112
 }

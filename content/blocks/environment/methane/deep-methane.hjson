@@ -11,3 +11,6 @@ bottomRegion: shallow-methane
 cacheLayer: tar
 supportsOverlay: true
 "shallow": true
+attributes: {
+   methaneevent: 0.8
+}
