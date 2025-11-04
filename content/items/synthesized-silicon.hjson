@@ -1,3 +1,6 @@
 name: "Sythesized Silicon"
 color: "53565c"
-cost: 0.8
+hardness: 3
+cost: 1
+alwaysUnlocked: false
+research: lithium

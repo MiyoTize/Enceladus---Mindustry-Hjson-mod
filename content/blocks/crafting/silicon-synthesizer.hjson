@@ -29,7 +29,7 @@ ambientSoundVolume: 0.7
 outputItems: [
 	synthesized-silicon/5
 ]
-research: methane-pump
+research: lithium-factory
 researchCost: [
 	ice/140
 	lithium/80
