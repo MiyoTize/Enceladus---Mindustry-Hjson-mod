@@ -1,0 +1,49 @@
+type: AttributeCrafter
+name: "Methane Collector"
+description: "Produces methane from vents."
+health: 170
+size: 3
+squareSprite: false
+category: production
+requirements: [
+	ice/35
+]
+
+//displayEfficiencyScale: 3
+attribute: methaneevent
+baseEfficiency: 0.0
+minEfficiency: 0.5
+maxEfficiency: 2
+hasLiquids: true
+liquidCapacity: 10
+outputLiquid: "methane/0.26667"  //16
+otputPower: "3,166666666666667" //190
+
+research: ice-crusher
+researchCost: [
+  ice/65
+]
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawRegion
+			suffix: -rotator
+			spinSprite: true
+			rotateSpeed: 2.5
+		}
+		{
+			type: DrawLiquidTile
+			padding: 1.5
+			drawLiquid: water
+		}
+		{
+			type: DrawDefault
+		}
+	]
+}
